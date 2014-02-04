@@ -596,7 +596,7 @@ textAngular.directive("textAngular", ['$compile', '$window', '$document', '$root
             actions[combination] = null;
         };
     }
-
+	// Try branch
     return {
         restrict: 'A',
         require: 'ngModel',
